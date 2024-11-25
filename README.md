@@ -46,9 +46,13 @@ Affiche un message de bienvenue et demande les informations de base :
 * Nom du joueur 1.
 * Mode de jeu : Joueur contre joueur (1) ou Joueur contre IA (2).
 Si mode joueur contre joueur, demande également le nom du joueur 2.
-* Boucle principale du jeu :
+
+ 
+Boucle principale du jeu :
     Affiche le plateau.
     Appelle la fonction appropriée pour jouer (playPlayer ou playAI).
     Vérifie la condition de victoire ou d'égalité après chaque tour.
     Change de joueur à chaque itération.
-* Affiche le résultat final (victoire ou match nul) avant de terminer.
+
+ 
+ Affiche le résultat final (victoire ou match nul) avant de terminer.
