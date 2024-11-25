@@ -13,6 +13,8 @@ vector<vector<char>> board(SIZE, vector<char>(SIZE, ' ')) : Représente le plate
 void displayBoard()
 - Affiche l'état actuel du plateau de jeu avec un format lisible.
 - Inclut des séparateurs pour rendre l'affichage esthétique.
+
+  
 bool checkWin(char player):
 - Vérifie si un joueur a gagné.
 - Implémente des vérifications pour :
@@ -20,14 +22,20 @@ bool checkWin(char player):
 * Colonnes
 * Diagonales
 - Renvoie true si le joueur spécifié (player) a trois symboles alignés.
+
+
    bool isBoardFull()
 - Vérifie si le plateau est complètement rempli.
 - Parcourt toutes les cases de la matrice et renvoie true si aucune n'est vide.
-  void playAI()
+
+
+   void playAI()
 - Implémente le tour de l'IA :
 * Génère aléatoirement une position libre sur le plateau.
 * Joue le symbole 'O' sur cette position.
 * Utilise srand et rand pour générer des nombres aléatoires.
+
+
 void playPlayer(const string& playerName, char playerSymbol)
 -Gère le tour d'un joueur humain :
 * Demande à l'utilisateur d'entrer une position (ligne et colonne).
